@@ -1,0 +1,49 @@
+.App-header {
+  background-color: #222;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+th:hover, tr:hover {
+  cursor: pointer;
+}
+
+th span {
+  position: absolute;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+table {
+  margin-top: 25px;
+}
+
+td.action:hover {
+  background-color: rgba(0, 0, 0, 0.075);
+}
+
+footer {
+  margin: 40px 0;
+}
+
+footer a {
+  opacity: 0.7;
+  color: #222 !important;
+}
+
+footer a:hover {
+  opacity: 1;
+}
